@@ -1,0 +1,15 @@
+{
+    "name": "pdfkitjs",
+    "url": "https://github.com/DenkiYagi/haxe-extern-pdfkitjs",
+    "description": "Haxe extern definitions for PDFKit.js",
+    "license": "Apache",
+    "version": "0.0.1",
+    "releasenote": "",
+    "classPath": "src",
+    "contributors": ["denkiyagi"],
+    "tags": ["js", "nodejs", "pdf", "pdfkit", "extern"],
+    "dependencies": {
+        "extype": "",
+        "hxnodejs": ""
+    }
+}

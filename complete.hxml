@@ -1,0 +1,8 @@
+-cp src
+-lib extype
+-lib hxnodejs
+-js dummy.js
+-debug
+--no-inline
+--no-output
+--no-opt
