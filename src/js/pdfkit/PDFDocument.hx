@@ -10,7 +10,11 @@ import js.node.stream.Readable;
 /**
  * PDFDocument - represents an entire PDF document
  */
+#if pdfkit_standalone
+@:native("PDFDocument")
+#else
 @:jsRequire("pdfkit")
+#end
 extern class PDFDocument extends Readable<PDFDocument> {
     /**
      * Creates a document.
