@@ -6,11 +6,11 @@
 haxelib git pdfkit https://github.com/DenkiYagi/haxe-extern-pdfkit
 ```
 
-If you use `pdfkit.standalone.js`, please add haxe compiler's flag `-D pdfkit_standalone`.
+If you use `pdfkit.standalone.js`, please add haxe compiler flag `-D pdfkit_standalone`.
 
 ## Requirements
 
-Haxe 4.0+
+Haxe 4.0.0-rc.3+
 
 ## Examples
 
