@@ -269,6 +269,13 @@ typedef PDFDocumentNewOptions = ReadableNewOptions & PDFPageOptions & {
     var ?font: String;
 
     /**
+     * To disable font layout cache
+     *
+     * default: `true`
+     */
+    var ?fontLayoutCache: Bool;
+
+    /**
      * The document metadata
      */
     var ?info: PDFDocumentInfo;
