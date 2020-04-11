@@ -300,7 +300,7 @@ typedef PDFDocumentNewOptions = ReadableNewOptions & PDFPageOptions & {
     /**
      * The object specifying PDF file permissions
      */
-    var permissions: PDFPermissions;
+    var ?permissions: PDFPermissions;
 }
 
 typedef PDFPageOptions = {
